@@ -6,7 +6,7 @@
 | Task | Regression - predict rainfall amount from weather observations |
 | Model | Gradient Boosting Regressor (Huber loss, 300 trees, depth 4, learning rate 0.05) |
 | Inputs | 23 features: temperature, humidity, wind, pressure, cloud cover, calendar features, 3 h / 6 h lags and changes |
-| Data | cleaned_weather - merged_panvel_weather.csv/ link / licence of your dataset - e.g. Mumbai, 2018-2023 |
+| Data | cleaned_weather - merged_panvel_weather.csv/ https://github.com/SKN-24/adsexpfinal/blob/main/cleaned_weather%20-%20merged_panvel_weather.csv / licence of your dataset - not started|
 | Train / test rows | 14222 / 3556 (time-ordered split, 80/20) |
 | Test MAE / RMSE / R2 | 0.553 / 1.428 / 0.344 |
 
@@ -62,5 +62,5 @@ Weather data holds no protected personal attributes, so fairness here means *con
 - Rare extreme rainfall is under-represented.
 
 ## 9. Accountability
-- Author: Your Name
+- Author: SKN-24
 - Version 1.0 - issues and feedback via GitHub Issues.
