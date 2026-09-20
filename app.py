@@ -28,7 +28,16 @@ def load_model():
     return joblib.load(MODEL_PATH)
 
 
-model = load_model()
+try:
+    model = load_model()
+except Exception as e:  # usually a scikit-learn version mismatch
+    import sklearn
+    st.error(
+        f"Could not load the model ({type(e).__name__}: {e}).\n\n"
+        f"Installed scikit-learn = {sklearn.__version__}. The model was saved with a different version - "
+        "pin the same version in requirements.txt (e.g. scikit-learn==1.8.0) and reboot the app."
+    )
+    st.stop()
 FEATURES = list(model.feature_names_in_)
 
 
