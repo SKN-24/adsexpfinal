@@ -62,5 +62,5 @@ Weather data holds no protected personal attributes, so fairness here means *con
 - Rare extreme rainfall is under-represented.
 
 ## 9. Accountability
-- Author: SKN-24
+- Author: Aditya Saji , Sarvesh Mhatre ,Sauravkrishna Nair(SKN-24)
 - Version 1.0 - issues and feedback via GitHub Issues.
