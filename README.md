@@ -18,7 +18,7 @@ streamlit run app.py
 - `notebooks/` - training & experiment notebooks
 
 ## Data
-Name / link / licence of your dataset (e.g. Mumbai, 2018-2023)
+cleaned_weather - merged_panvel_weather.csv/ https://github.com/SKN-24/adsexpfinal/blob/main/cleaned_weather%20-%20merged_panvel_weather.csv / licence of your dataset - not started
 
 ## Author
 Aditya Saji, Sarvesh Mhatre,Sauravkrishna Nair(SKN-24)
