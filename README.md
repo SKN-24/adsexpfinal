@@ -2,7 +2,7 @@
 
 Streamlit dashboard for a Gradient Boosting rainfall model with SHAP explanations, metrics, drift checks and a Responsible AI report.
 
-**Live app:** <paste your Streamlit Cloud link here>
+**Live app:** https://u8fwec277edkv6tkxnsdjt.streamlit.app/
 
 ## Run locally
 ```bash
